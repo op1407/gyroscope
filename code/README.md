@@ -7,6 +7,5 @@ st7735.py : 1,8" TFT Display library
 mpu6050.py : MPU-6050 chip library
 
 sysfont.py : Fonts for TFT Display
-
-
+#
 A lot of is still missing, for example battery charger.
