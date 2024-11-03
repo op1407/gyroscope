@@ -110,7 +110,7 @@ class TFT(object) :
        aDC is the DC pin and aReset is the reset pin."""
     self._size = ScreenSize
     self._offset = bytearray([0,0])
-    self.rotate = 0                    #Vertical with top toward pins.
+    self.rotate = 2                    #Vertical with top toward pins.
     self._rgb = True                   #color order of rgb.
     self.tfa = 0                       #top fixed area
     self.bfa = 0                       #bottom fixed area
